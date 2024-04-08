@@ -3,7 +3,7 @@ on: [push]
  
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: linux
     steps:
       - name: Checkout repo to use the action locally
         uses: actions/checkout@v3.5.3
